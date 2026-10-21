@@ -1,0 +1,25 @@
+# Segredos e ambiente local — nunca versionar
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+backend/.venv/
+.pytest_cache/
+*.egg-info/
+dev.db
+*.sqlite3
+
+# Node
+node_modules/
+frontend/dist/
+frontend/coverage/
+*.log
+
+# Editores / SO
+.DS_Store
+.idea/
+.vscode/
